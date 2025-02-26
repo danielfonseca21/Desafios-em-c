@@ -3,12 +3,12 @@
     int main() {
         // Declaração das variáveis para a primeira carta
         char estado1;
-        char codigo1[5]; // Para armazenar o código da carta (ex: A01)
-         char nomeCidade1[50]; // Para armazenar o nome da cidade
-         int populacao1;
-         float area1;
-         float pib1;
-         int pontosTuristicos1;
+        char codigo1[5]; 
+        char nomeCidade1[50]; 
+        int populacao1;
+        float area1;
+        float pib1;
+        int pontosTuristicos1;
     
         // Leitura dos dados da primeira carta
         printf("Digite o estado (A-H) da Carta 1: ");
@@ -16,7 +16,7 @@
         printf("Digite o código da Carta 1 (ex: A01): ");
         scanf("%s", codigo1);
         printf("Digite o nome da cidade da Carta 1: ");
-        scanf(" %[^\n]", nomeCidade1); // Lê até a nova linha
+        scanf(" %[^\n]", nomeCidade1); 
         printf("Digite a população da cidade da Carta 1: ");
         scanf("%d", &populacao1);
         printf("Digite a área da cidade da Carta 1 (em km²): ");
@@ -28,8 +28,8 @@
     
         // Declaração das variáveis para a segunda carta
         char estado2;
-        char codigo2[5]; // Para armazenar o código da carta (ex: B02)
-        char nomeCidade2[50]; // Para armazenar o nome da cidade
+        char codigo2[5]; 
+        char nomeCidade2[50]; 
         int populacao2;
         float area2;
         float pib2;
@@ -41,7 +41,7 @@
         printf("Digite o código da Carta 2 (ex: B02): ");
         scanf("%s", codigo2);
         printf("Digite o nome da cidade da Carta 2: ");
-        scanf(" %[^\n]", nomeCidade2); // Lê até a nova linha
+        scanf(" %[^\n]", nomeCidade2); 
         printf("Digite a população da cidade da Carta 2: ");
         scanf("%d", &populacao2);
         printf("Digite a área da cidade da Carta 2 (em km²): ");

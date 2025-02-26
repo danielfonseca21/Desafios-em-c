@@ -11,7 +11,7 @@
          int pontosTuristicos1;
     
         // Leitura dos dados da primeira carta
-         printf("Digite o estado (A-H) da Carta 1: ");
+        printf("Digite o estado (A-H) da Carta 1: ");
         scanf(" %c", &estado1);
         printf("Digite o código da Carta 1 (ex: A01): ");
         scanf("%s", codigo1);

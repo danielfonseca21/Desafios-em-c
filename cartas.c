@@ -1,7 +1,7 @@
 #include <stdio.h>
 
     int main() {
-        printf("Super Trunfo")
+        printf("Super Trunfo\n");
         char estado1;
         char codigo1[5]; 
         char nomeCidade1[50]; 
